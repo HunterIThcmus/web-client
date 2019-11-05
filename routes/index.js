@@ -53,4 +53,9 @@ router.get('/updateprofile', function(req, res, next) {
  
 });
 
+router.get('/history', function(req, res, next) {
+  res.render('history', { title: 'checkout' });
+  
+ 
+});
 module.exports = router;
